@@ -1,4 +1,4 @@
-# Sanitizer Plugin for Kirby
+# Sanitizer Plugin for [Kirby CMS](https://getkirby.com)
 
 Handle untrusted user input, e.g. in comments or any other user-submitted form with
 confidence. The Sanitizer plugin escaped all unsafe HTML tags, corrects illegally
