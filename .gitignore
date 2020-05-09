@@ -1,0 +1,29 @@
+# os
+.DS_Store
+
+# build files
+/dist.zip
+/kirby.zip
+
+# cs fixer
+.php_cs.cache
+
+# editors
+*.sublime-project
+*.sublime-workspace
+/.vscode
+/.idea
+
+# tests
+.phpunit.result.cache
+/panel/cypress
+/tests/coverage
+
+# ignore all the vendor cruft
+/vendor/ezyang/htmlpurifier/extras/**/*
+/vendor/ezyang/htmlpurifier/maintenance/**/*
+/vendor/ezyang/htmlpurifier/plugins/**/*
+/vendor/**/test/**/*
+/vendor/**/tests/**/*
+/vendor/**/*.ini
+/vendor/**/.*

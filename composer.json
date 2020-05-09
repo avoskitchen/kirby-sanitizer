@@ -1,0 +1,26 @@
+{
+    "name": "fabianmichael/kirby-sanitizer",
+    "description": "Sanitization of unstrusted HTML input for Kirby CMS",
+    "type": "kirby-plugin",
+    "require": {
+        "ezyang/htmlpurifier": "^4.12",
+        "getkirby/composer-installer": "^1.1",
+        "masterminds/html5": "^2.7",
+        "php": ">=7.3"
+    },
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Fabian Michael",
+            "email": "hallo@fabianmichael.de"
+        }
+    ],
+    "config": {
+      "optimize-autoloader": true
+    },
+    "autoload": {
+      "psr-4": {
+        "FabianMichael\\Sanitizer\\": "lib/"
+      }
+    }
+}
