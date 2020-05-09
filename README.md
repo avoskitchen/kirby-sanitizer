@@ -38,7 +38,7 @@ also use the corresponding field method `$field->sanitize(string $html, array $o
 | `smartypants` | `null` | If not specified, Kirby’s default setting is used. |
 | `allowlinks` | `true` | Allow links in output HTML. |
 | `autolinks` | `true` | Automatically convert all URLs to links. |
-| `headingClass` | `{{ tag-sanitized }}` | Class to apply to replaced headlines. Available playeholders: `{{ tag }}` = The full tag name of the replaced (`<h[1-6]>`) element / `{{ level }}` = The level (`[1-6]`) of the replaced element. |
+| `headingClass` | `{{ tag }}-sanitized` | Class to apply to replaced headlines. Available playeholders: `{{ tag }}` = The full tag name of the replaced (`<h[1-6]>`) element / `{{ level }}` = The level (`[1-6]`) of the replaced element. |
 
 ## Development
 
