@@ -6,7 +6,7 @@ use Kirby\Cms\Field;
 @include __DIR__ . '/vendor/autoload.php';
 @include __DIR__ . '/helpers.php';
 
-Kirby::plugin('fabianmichael/sanitizer', [
+Kirby::plugin('avoskitchen/sanitizer', [
     'options' => [
         'cache' => [
             'purifier-definitions' => true,

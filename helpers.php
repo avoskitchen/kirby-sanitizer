@@ -1,6 +1,6 @@
 <?php
 
-use FabianMichael\Sanitizer\Sanitizer;
+use AvosKitchen\Sanitizer\Sanitizer;
 
 function sanitize(string $html, array $options = []): string
 {

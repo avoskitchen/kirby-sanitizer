@@ -1,6 +1,6 @@
 <?php
 
-namespace FabianMichael\Sanitizer;
+namespace AvosKitchen\Sanitizer;
 
 use HTMLPurifier_DefinitionCache;
 
@@ -14,7 +14,7 @@ class CacheAdapter extends HTMLPurifier_DefinitionCache
     public function __construct($type)
     {
         parent::__construct($type);
-        $this->cache = kirby()->cache('fabianmichael.sanitizer.purifier-definitions');
+        $this->cache = kirby()->cache('avoskitchen.sanitizer.purifier-definitions');
     }
 
     public function add($def, $config)

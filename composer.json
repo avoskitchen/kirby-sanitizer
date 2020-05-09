@@ -1,5 +1,5 @@
 {
-    "name": "fabianmichael/kirby-sanitizer",
+    "name": "avoskitchen/kirby-sanitizer",
     "description": "Sanitization of unstrusted HTML input for Kirby CMS",
     "type": "kirby-plugin",
     "require": {
@@ -12,7 +12,7 @@
     "authors": [
         {
             "name": "Fabian Michael",
-            "email": "hallo@fabianmichael.de"
+            "email": "hallo@avoskitchen.de"
         }
     ],
     "config": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
       "psr-4": {
-        "FabianMichael\\Sanitizer\\": "lib/"
+        "AvosKitchen\\Sanitizer\\": "lib/"
       }
     }
 }

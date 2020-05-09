@@ -6,11 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'FabianMichael\\Sanitizer\\CacheAdapter' => $baseDir . '/lib/CacheAdapter.php',
-    'FabianMichael\\Sanitizer\\CodeClassAttrDef' => $baseDir . '/lib/CodeClassAttrDef.php',
-    'FabianMichael\\Sanitizer\\LinkTransformer' => $baseDir . '/lib/LinkTransformer.php',
-    'FabianMichael\\Sanitizer\\RemoveEmptyLinksInjector' => $baseDir . '/lib/RemoveEmptyLinksInjector.php',
-    'FabianMichael\\Sanitizer\\Sanitizer' => $baseDir . '/lib/Sanitizer.php',
+    'AvosKitchen\\Sanitizer\\CacheAdapter' => $baseDir . '/lib/CacheAdapter.php',
+    'AvosKitchen\\Sanitizer\\CodeClassAttrDef' => $baseDir . '/lib/CodeClassAttrDef.php',
+    'AvosKitchen\\Sanitizer\\LinkTransformer' => $baseDir . '/lib/LinkTransformer.php',
+    'AvosKitchen\\Sanitizer\\RemoveEmptyLinksInjector' => $baseDir . '/lib/RemoveEmptyLinksInjector.php',
+    'AvosKitchen\\Sanitizer\\Sanitizer' => $baseDir . '/lib/Sanitizer.php',
     'HTMLPurifier' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.php',
     'HTMLPurifier_Arborize' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/Arborize.php',
     'HTMLPurifier_AttrCollections' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/AttrCollections.php',

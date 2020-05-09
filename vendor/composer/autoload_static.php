@@ -21,7 +21,7 @@ class ComposerStaticInit6171f63436884bb6e0e8727e1c658d1e
         ),
         'F' => 
         array (
-            'FabianMichael\\Sanitizer\\' => 24,
+            'AvosKitchen\\Sanitizer\\' => 24,
         ),
     );
 
@@ -34,7 +34,7 @@ class ComposerStaticInit6171f63436884bb6e0e8727e1c658d1e
         array (
             0 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
-        'FabianMichael\\Sanitizer\\' => 
+        'AvosKitchen\\Sanitizer\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lib',
         ),
@@ -51,11 +51,11 @@ class ComposerStaticInit6171f63436884bb6e0e8727e1c658d1e
     );
 
     public static $classMap = array (
-        'FabianMichael\\Sanitizer\\CacheAdapter' => __DIR__ . '/../..' . '/lib/CacheAdapter.php',
-        'FabianMichael\\Sanitizer\\CodeClassAttrDef' => __DIR__ . '/../..' . '/lib/CodeClassAttrDef.php',
-        'FabianMichael\\Sanitizer\\LinkTransformer' => __DIR__ . '/../..' . '/lib/LinkTransformer.php',
-        'FabianMichael\\Sanitizer\\RemoveEmptyLinksInjector' => __DIR__ . '/../..' . '/lib/RemoveEmptyLinksInjector.php',
-        'FabianMichael\\Sanitizer\\Sanitizer' => __DIR__ . '/../..' . '/lib/Sanitizer.php',
+        'AvosKitchen\\Sanitizer\\CacheAdapter' => __DIR__ . '/../..' . '/lib/CacheAdapter.php',
+        'AvosKitchen\\Sanitizer\\CodeClassAttrDef' => __DIR__ . '/../..' . '/lib/CodeClassAttrDef.php',
+        'AvosKitchen\\Sanitizer\\LinkTransformer' => __DIR__ . '/../..' . '/lib/LinkTransformer.php',
+        'AvosKitchen\\Sanitizer\\RemoveEmptyLinksInjector' => __DIR__ . '/../..' . '/lib/RemoveEmptyLinksInjector.php',
+        'AvosKitchen\\Sanitizer\\Sanitizer' => __DIR__ . '/../..' . '/lib/Sanitizer.php',
         'HTMLPurifier' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.php',
         'HTMLPurifier_Arborize' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Arborize.php',
         'HTMLPurifier_AttrCollections' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/AttrCollections.php',

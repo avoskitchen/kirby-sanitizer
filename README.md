@@ -14,13 +14,13 @@ Download and copy this repository to `/site/plugins/kirby-sanitizer`.
 ### Git submodule
 
 ```
-git submodule add https://github.com/fabianmichael/kirby-sanitizer.git site/plugins/kirby-sanitizer
+git submodule add https://github.com/avoskitchen/kirby-sanitizer.git site/plugins/kirby-sanitizer
 ```
 
 ### Composer
 
 ```
-composer require fabianmichael/kirby-sanitizer
+composer require avoskitchen/kirby-sanitizer
 ```
 
 ## Setup
@@ -53,7 +53,7 @@ LPGL
 
 ## Credits
 
-- [Fabian Michael](https://fabianmichael.de)
+- [Fabian Michael](https://avoskitchen.de)
 
 ## Third-party Libraries
 

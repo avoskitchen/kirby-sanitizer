@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Masterminds\\' => array($vendorDir . '/masterminds/html5/src'),
     'Kirby\\' => array($vendorDir . '/getkirby/composer-installer/src'),
-    'FabianMichael\\Sanitizer\\' => array($baseDir . '/lib'),
+    'AvosKitchen\\Sanitizer\\' => array($baseDir . '/lib'),
 );

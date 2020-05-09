@@ -1,6 +1,6 @@
 <?php
 
-namespace FabianMichael\Sanitizer;
+namespace AvosKitchen\Sanitizer;
 
 use HTMLPurifier_AttrValidator;
 use HTMLPurifier_Injector;

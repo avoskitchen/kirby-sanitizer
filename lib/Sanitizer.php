@@ -1,6 +1,6 @@
 <?php
 
-namespace FabianMichael\Sanitizer;
+namespace AvosKitchen\Sanitizer;
 
 use Parsedown;
 use HTMLPurifier;
@@ -125,12 +125,12 @@ class Sanitizer
     public static function sanitize(string $text, array $options = []): string
     {
         $options = array_merge([
-            'dir' => option('fabianmichael.sanitizer.dir', null),
-            'markdown' => option('fabianmichael.sanitizer.markdown', false),
+            'dir' => option('avoskitchen.sanitizer.dir', null),
+            'markdown' => option('avoskitchen.sanitizer.markdown', false),
             'smartypants' => option('smartypants', false),
-            'allowlinks' => option('fabianmichael.sanitizer.allowlinks', true),
-            'autolinks' => option('fabianmichael.sanitizer.autolinks', true),
-            'headingClass' => option('fabianmichael.sanitizer.headingClass'),
+            'allowlinks' => option('avoskitchen.sanitizer.allowlinks', true),
+            'autolinks' => option('avoskitchen.sanitizer.autolinks', true),
+            'headingClass' => option('avoskitchen.sanitizer.headingClass'),
         ], $options);
 
         if ($options['markdown'] === true) {
