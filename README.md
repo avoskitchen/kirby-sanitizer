@@ -53,7 +53,7 @@ LPGL
 
 ## Credits
 
-- [Fabian Michael](https://avoskitchen.de)
+- [Fabian Michael](https://fabianmichael.de)
 
 ## Third-party Libraries
 
