@@ -1,4 +1,4 @@
-# Sanitizer Plugin for [Kirby CMS](https://getkirby.com)
+# Sanitizer Plugin for [Kirby](https://getkirby.com)
 
 Handle untrusted user input, e.g. in comments or any other user-submitted form with
 confidence. The Sanitizer plugin escaped all unsafe HTML tags, corrects illegally
@@ -33,7 +33,7 @@ also use the corresponding field method `$field->sanitize(string $html, array $o
 
 | Key | Default value | Description |
 |:----|:--------------|:------------|
-| `dir` | `null' | Sets the text direction of the input HTML. If `null`, the current locale setting of Kirby is used. |
+| `dir` | `null` | Sets the text direction of the input HTML. If `null`, the current locale setting of Kirby is used. |
 | `markdown` | `false` | Parse Markdown commands before sanitization. |
 | `smartypants` | `null` | If not specified, Kirby’s default setting is used. |
 | `allowlinks` | `true` | Allow links in output HTML. |
