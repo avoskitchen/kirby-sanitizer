@@ -58,4 +58,4 @@ LPGL
 ## Third-party Libraries
 
 - [HTML Purifier](http://htmlpurifier.org/), released under the LGPL
-- [html5-php](http://masterminds.github.io/html5-php/), released under the HTML5-PHP l icense
+- [html5-php](http://masterminds.github.io/html5-php/), released under the HTML5-PHP license
