@@ -40,7 +40,7 @@ also use the corresponding field method `$field->sanitize(string $html, array $o
 | `autolinks` | `true` | Automatically convert all URLs to links. If `allowlinks` is set to `false`, this option has no effect. |
 | `headingClass` | `{{ tag }}-sanitized` | Class to apply to replaced headlines. Available playeholders: `{{ tag }}` = The full tag name of the replaced (`<h[1-6]>`) element / `{{ level }}` = The level (`[1-6]`) of the replaced element. |
 
-You can set global defaults, by prepending any of the options above with the plugin `avoskitchen.sanitizer` namespace:
+You can set global defaults, by prepending any of the options above with the plugin namespace (`avoskitchen.sanitizer`):
 
 ```php
 # site/config/config.php
