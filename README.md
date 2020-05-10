@@ -37,8 +37,18 @@ also use the corresponding field method `$field->sanitize(string $html, array $o
 | `markdown` | `false` | Parse Markdown commands before sanitization. |
 | `smartypants` | `null` | If not specified, Kirby’s default setting is used. |
 | `allowlinks` | `true` | Allow links in output HTML. |
-| `autolinks` | `true` | Automatically convert all URLs to links. |
+| `autolinks` | `true` | Automatically convert all URLs to links. If `allowlinks` is set to `false`, this option has no effect. |
 | `headingClass` | `{{ tag }}-sanitized` | Class to apply to replaced headlines. Available playeholders: `{{ tag }}` = The full tag name of the replaced (`<h[1-6]>`) element / `{{ level }}` = The level (`[1-6]`) of the replaced element. |
+
+You can set global defaults, by prepending any of the options above with the plugin `avoskitchen.sanitizer` namespace:
+
+```php
+# site/config/config.php
+
+return [
+  'avoskitchen.sanitizer.allowlinks' => false,
+];
+```
 
 ## Development
 
