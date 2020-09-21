@@ -27,7 +27,7 @@ composer require avoskitchen/kirby-sanitizer
 
 Use the provided helper function `sanitize(string $html, array $options = [])` in your
 templates or anywhere else, where you need for sanitize untrusted HTML input. You can
-also use the corresponding field method `$field->sanitize(string $html, array $options = [])`.
+also use the corresponding field method `$field->sanitize(array $options = [])`.
 
 ## Options
 
