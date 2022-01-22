@@ -22,5 +22,8 @@
       "psr-4": {
         "AvosKitchen\\Sanitizer\\": "lib/"
       }
-    }
+    },
+    "extra": {
+        "installer-name": "sanitizer"
+    },
 }
